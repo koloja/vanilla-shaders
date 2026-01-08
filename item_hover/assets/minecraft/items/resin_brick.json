@@ -1,0 +1,27 @@
+{
+    "oversized_in_gui": true,
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/resin_brick"
+        },
+        "cases": [
+            {
+                "when": "empty",
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/empty"
+                }
+            },
+            {
+                "when": "gui:menu/navigator",
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/gui/menu/navigator"
+                }
+            }
+        ]
+    }
+}

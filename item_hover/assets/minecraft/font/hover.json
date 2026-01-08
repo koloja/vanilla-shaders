@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:item/gui/hover/enabled_flat.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": ["a"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:item/gui/hover/disabled_flat.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": ["b"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:item/gui/hover/disabled_tall.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": ["c"]
+        }
+    ]
+}

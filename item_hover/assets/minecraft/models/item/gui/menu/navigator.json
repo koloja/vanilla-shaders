@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by koloja, https://github.com/koloja/vanilla-shaders",
+	"textures": {
+		"texture": "minecraft:item/gui/menu/navigator"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 16],
+			"to": [32, 32, 16],
+			"faces": {
+				"north": {"uv": [11, 16, 0, 5], "rotation": 180, "texture": "#texture"},
+				"south": {"uv": [0, 5, 11, 16], "texture": "#texture"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"gui": {
+			"translation": [72, 60, -80],
+			"scale": [3.66, 3.66, 3.66]
+		}
+	}
+}
