@@ -1,5 +1,5 @@
 > [!NOTE]
-> If you need help using or setting these up please [join the discord](https://discord.gg/KRRybNJ5Cp) and ping me.
+> If you need help using or setting these up please join the [Discord Server](https://discord.gg/KRRybNJ5Cp) and ping me.
 
 # vanilla-shaders
 A small collection of some cool effects ive made using shaders for Minecraft.
