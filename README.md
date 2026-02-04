@@ -13,6 +13,6 @@ A small collection of some cool effects ive made using shaders for Minecraft.
 
 ## Item hover
 
-> Was also made on 1.21.8 but should work for 1.21.10
+> Made for 1.21.8 and is broken since 1.21.9 due to rendering changes.
 
 [![Item hover](./images/item_hover.png)](https://youtu.be/tPWuIlVOtTg)
