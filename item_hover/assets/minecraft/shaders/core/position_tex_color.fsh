@@ -1,5 +1,3 @@
-// I lowkey forgot what this does, I worked on this resource pack like 6 months ago :sob:
-
 #version 150
 
 // Can't moj_import in things used during startup, when resource packs don't exist.
@@ -24,6 +22,6 @@ void main()
 {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor;
     if (color.a == 0.0) discard;
-    if (color.a > 0.0 && color.r > 0.99 && color.g > 0.99 && color.b > 0.99 && color.a < 0.6) discard;
+    if (color.a > 0.0 && color.r > 0.99 && color.g > 0.99 && color.b > 0.99 && color.a < 0.6) discard; // discard the highlight effect colour
     fragColor = color * ColorModulator;
 }
