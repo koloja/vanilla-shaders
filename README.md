@@ -2,7 +2,7 @@
 > If you need help using or setting these up please join the [Discord Server](https://discord.gg/KRRybNJ5Cp) and ping me.
 
 # vanilla-shaders
-A small collection of some cool effects ive made using shaders for Minecraft.
+A small collection of some cool things i've made for Minecraft. And yes it't not really shader stuff.
 
 ## Bossbars
 
