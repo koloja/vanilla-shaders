@@ -12,29 +12,19 @@ in vec2 texCoord0;
 
 out vec4 fragColor;
 
-const bool DEBUG_MARKER = false; // not needed but good for development
+const bool DEBUG_MARKER = false; // not needed but good for placement
 
 void main()
 {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
     if (color.a < 0.1) discard;
 
+    // hides or shows the marker depending on the value above
     if (all(lessThan(abs(color.rgb - vec3(0.4627, 0.8431, 0.4627)), vec3(0.01))))
     {
-        if (DEBUG_MARKER) fragColor = vec4(1.0, 0.0, 0.0, 1.0);
+        if (DEBUG_MARKER) fragColor = vec4(0.4627, 0.8431, 0.4627, 1.0);
         else fragColor = vec4(0.0, 0.0, 0.0, 0.0);
     }
-    else
-    {
-        fragColor = apply_fog(
-            color,
-            sphericalVertexDistance,
-            cylindricalVertexDistance,
-            FogEnvironmentalStart,
-            FogEnvironmentalEnd,
-            FogRenderDistanceStart,
-            FogRenderDistanceEnd,
-            FogColor
-        );
-    }
+
+    else fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
 }
