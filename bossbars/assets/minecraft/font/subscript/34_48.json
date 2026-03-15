@@ -1,6 +1,10 @@
 {
     "providers": [
         {
+            "type": "space",
+            "advances": { "\u0020": 4 }
+        },
+        {
             "type": "bitmap",
             "file": "minecraft:font/subscript.png",
             "ascent": 34,
