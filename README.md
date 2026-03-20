@@ -4,11 +4,17 @@
 # vanilla-shaders
 A small collection of some cool things i've made for Minecraft. And yes it't not really shader stuff.
 
-## Basic Dynamic UI
+## Better UI
+
+> Made and testing in 1.21.11 aswell, should work alot better than Basic UI
+![Better UI](./images/image.png)
+
+![Basic UI](./images/basic_ui.png)
+## Basic UI
 
 > Made for and testing in 1.21.11 yet to try it inside of previous versions.
 
-![Basic Dynamic UI](./images/basic_dynamic_ui.png)
+![Basic UI](./images/basic_ui.png)
 
 ## Bossbars
 
